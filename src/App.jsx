@@ -100,7 +100,75 @@ export default function App() {
         id="fieldset"
         className="w-full p-2 flex justify-between row-start-1 row-end-2 col-start-1 col-end-3"
       >
-        {/* Radio buttons for filtering */}
+        {<fieldset
+  id="fieldset"
+  className="w-full p-2 flex justify-between row-start-1 row-end-2 col-start-1 col-end-3"
+>
+  <div>
+    <input
+      name="fieldset"
+      type="radio"
+      id="Todos"
+      onChange={() => setFiltro("todos")}
+    />
+    <label htmlFor="Todos">Todos</label>
+  </div>
+  <div>
+    <input
+      name="fieldset"
+      type="radio"
+      id="Asia"
+      onChange={() => setFiltro("Asia")}
+    />
+    <label htmlFor="Asia">Asia</label>
+  </div>
+  <div>
+    <input
+      name="fieldset"
+      type="radio"
+      id="Americas"
+      onChange={() => setFiltro("Americas")}
+    />
+    <label htmlFor="Americas">Americas</label>
+  </div>
+  <div>
+    <input
+      name="fieldset"
+      type="radio"
+      id="Europe"
+      onChange={() => setFiltro("Europe")}
+    />
+    <label htmlFor="Europe">Europe</label>
+  </div>
+  <div>
+    <input
+      name="fieldset"
+      type="radio"
+      id="Africa"
+      onChange={() => setFiltro("Africa")}
+    />
+    <label htmlFor="Africa">Africa</label>
+  </div>
+  <div>
+    <input
+      name="fieldset"
+      type="radio"
+      id="Oceania"
+      onChange={() => setFiltro("Oceania")}
+    />
+    <label htmlFor="Oceania">Oceania</label>
+  </div>
+  <div>
+    <input
+      name="fieldset"
+      type="radio"
+      id="Antartic"
+      onChange={() => setFiltro("Antartic")}
+    />
+    <label htmlFor="Antartic">Antartic</label>
+  </div>
+</fieldset>
+}
       </fieldset>
       <div className="w-full row-start-2 row-end-3 col-start-1 col-end-3">
         <input
